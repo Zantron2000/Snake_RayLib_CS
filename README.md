@@ -25,4 +25,14 @@ classDiagram
         + GetPosition(): Vector2
         + Interact(snake: Snake): void
     }
+
+    class Cell {
+        - position: Vector2
+        - occupier: Occupier
+        + Cell(position: Vector2)
+        + GetPosition(): Vector2
+        + GetOccupier(): Occupier
+        + SetOccupier(occupier: Occupier): void
+        + IsOccupied(): bool
+    }
 ```
