@@ -14,4 +14,15 @@ classDiagram
         + Move(space: Vector2): void
         + Grow(): void
 	}
+
+    interface Occupier {
+        + Interact(snake: Snake): void
+    }
+
+    class Food implements Occupier {
+        - position: Vector2
+        + Food(position: Vector2)
+        + GetPosition(): Vector2
+        + Interact(snake: Snake): void
+    }
 ```
