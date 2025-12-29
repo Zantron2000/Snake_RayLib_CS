@@ -1,3 +1,5 @@
+using Snake.Model.Occupier;
+
 namespace Snake.Model
 {
     public interface IFood : IOccupier

@@ -1,4 +1,5 @@
 using Snake.Core;
+using Snake.Model.Occupier;
 
 namespace Snake.Model
 {

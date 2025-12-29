@@ -1,6 +1,6 @@
 using Snake.Core;
 
-namespace Snake.Model
+namespace Snake.Model.Occupier
 {
     public interface IOccupier
     {

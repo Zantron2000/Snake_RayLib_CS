@@ -1,5 +1,6 @@
 using Snake.Model;
 using Snake.Model.FoodGenerator;
+using Snake.Model.Occupier;
 using Snake.View;
 using Snake.Core;
 using Raylib_cs;

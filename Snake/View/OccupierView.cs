@@ -1,5 +1,5 @@
 using Snake.Core;
-using Snake.Model;
+using Snake.Model.Occupier;
 
 namespace Snake.View
 {
