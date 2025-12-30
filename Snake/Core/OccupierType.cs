@@ -4,5 +4,6 @@ namespace Snake.Core
     {
         None,
         Food,
+        Wall,
     }
 }
